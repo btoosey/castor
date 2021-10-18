@@ -6,9 +6,18 @@ using UnityEngine;
 public class Card : ScriptableObject
 {
     public new string name;
-    public string suit;
-    public int value;
     
-    public string description;
+    public int value;
+    public Suit suit;
+    public string description = null;
     public Sprite artwork;
+    
+    
+    public enum Suit {
+        None,
+        Heart,
+        Diamond,
+        Spade,
+        Club
+    };
 }
