@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac192a489e905334f8d2186215c8b6c1, type: 3}
+  m_Name: HeartQ
+  m_EditorClassIdentifier: 
+  name: HeartQ
+  value: 10
+  suit: 1
+  description: 
+  artwork: {fileID: 21300000, guid: 1379f2ab5a1b51147b72f06a15c277ac, type: 3}
