@@ -730,8 +730,9 @@ GameObject:
   - component: {fileID: 1248389796}
   - component: {fileID: 1248389795}
   - component: {fileID: 1248389794}
+  - component: {fileID: 1248389797}
   m_Layer: 5
-  m_Name: Deal
+  m_Name: Deal Cards Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -800,7 +801,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1248389795}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1248389797}
+        m_TargetAssemblyTypeName: DealCards, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1248389795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,6 +852,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248389792}
   m_CullTransparentMesh: 1
+--- !u!114 &1248389797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248389792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325a97ed29358ea44b8c67d837543ff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Card: {fileID: 44043731}
+  PlayerArea: {fileID: 1534380389}
 --- !u!1 &1534380389
 GameObject:
   m_ObjectHideFlags: 0
