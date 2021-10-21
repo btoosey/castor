@@ -13,7 +13,8 @@ public class DealCards : MonoBehaviour
 		for (int i = 0; i < 4; i++)
 		{
             GameObject card = Instantiate(Card, new Vector2(0, 0), Quaternion.identity);
-            card.transform.SetParent(PlayerArea.transform, false);
+            card.transform.SetParent(PlayerArea.transform, true);
+            card.transform.position = Vector2.down * 320;
 		}
 	}
 
