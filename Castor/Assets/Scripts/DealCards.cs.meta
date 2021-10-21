@@ -3,7 +3,9 @@ guid: 325a97ed29358ea44b8c67d837543ff3
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Card: {fileID: 4930869158274909283, guid: 6ab9f4310fc96324493c6c2738787746, type: 3}
+  - PlayerArea: {fileID: 7274566543091378881, guid: 3e968fc650f7dcf4c8f1203fa7270fa2, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
